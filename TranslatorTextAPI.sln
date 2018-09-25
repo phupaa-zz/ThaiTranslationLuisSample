@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslatorTextAPI", "TranslatorTextAPI\TranslatorTextAPI.csproj", "{6F83DB6E-EEEF-42BA-A1FB-C7F73C98D981}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{A4B710A4-4B8C-4D92-9AA2-DF3522E24070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F83DB6E-EEEF-42BA-A1FB-C7F73C98D981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F83DB6E-EEEF-42BA-A1FB-C7F73C98D981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F83DB6E-EEEF-42BA-A1FB-C7F73C98D981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F83DB6E-EEEF-42BA-A1FB-C7F73C98D981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B710A4-4B8C-4D92-9AA2-DF3522E24070}.Debug|Any CPU.ActiveCfg = Debug
+		{A4B710A4-4B8C-4D92-9AA2-DF3522E24070}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3914F9E2-9848-4AEE-BE0C-D3D9608FAE5F}
+	EndGlobalSection
+EndGlobal

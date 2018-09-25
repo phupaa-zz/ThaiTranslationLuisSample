@@ -1,0 +1,36 @@
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\bin\Debug\TranslatorTextAPI.exe.config
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\bin\Debug\TranslatorTextAPI.exe
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\bin\Debug\TranslatorTextAPI.pdb
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\bin\Debug\Newtonsoft.Json.dll
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\bin\Debug\Newtonsoft.Json.xml
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.Mainform.resources
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.Properties.Resources.resources
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.csproj.GenerateResource.cache
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.csproj.CoreCompileInputs.cache
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.csproj.CopyComplete
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.exe
+C:\xDOCs\Documents\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.pdb
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\bin\Debug\TranslatorTextAPI.exe.config
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\bin\Debug\TranslatorTextAPI.exe
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\bin\Debug\TranslatorTextAPI.pdb
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\bin\Debug\Newtonsoft.Json.dll
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\bin\Debug\Newtonsoft.Json.xml
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.Mainform.resources
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.Properties.Resources.resources
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.csproj.GenerateResource.cache
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.csproj.CoreCompileInputs.cache
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.csproj.CopyComplete
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.exe
+C:\xDocs\Projects.Dev\TranslatorTextAPI\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.pdb
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\bin\Debug\TranslatorTextAPI.exe.config
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\bin\Debug\TranslatorTextAPI.exe
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\bin\Debug\TranslatorTextAPI.pdb
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\bin\Debug\Newtonsoft.Json.dll
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\bin\Debug\Newtonsoft.Json.xml
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.Mainform.resources
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.Properties.Resources.resources
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.csproj.GenerateResource.cache
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.csproj.CoreCompileInputs.cache
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.csproj.CopyComplete
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.exe
+C:\xDocs\Projects.Dev\TranslatorTextAPI V2\TranslatorTextAPI\obj\Debug\TranslatorTextAPI.pdb
