@@ -1,0 +1,489 @@
+{
+  "luis_schema_version": "3.1.0",
+  "versionId": "0.1",
+  "name": "TranslatorTextAPIapp",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "CreditCard.CheckAvailableCreditLine"
+    },
+    {
+      "name": "CreditCard.CheckDueDate"
+    },
+    {
+      "name": "CreditCard.CheckOutStandingBalance"
+    },
+    {
+      "name": "CreditCard.RequestCreditLineIncrease"
+    },
+    {
+      "name": "CreditCard.RequestExtendPayment"
+    },
+    {
+      "name": "CreditCard.RequestWaiveAnnualFee"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Topup"
+    }
+  ],
+  "entities": [
+    {
+      "name": "products",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "number",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "\" it ' s dinner time , sis it okay to eat only one apple ? \"",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "\" let ' s run today 20 , 000 steps and burn more calories \"",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "\" record that i ran today 12 , 300 steps \"",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "\" set my next goal 15 , 000 steps per day \"",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "500 expressway refill",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 4,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "buy easypass 5005 baht",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 4,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "can i cancel the fee?",
+      "intent": "CreditCard.RequestWaiveAnnualFee",
+      "entities": []
+    },
+    {
+      "text": "can i extend the payment day?",
+      "intent": "CreditCard.RequestExtendPayment",
+      "entities": []
+    },
+    {
+      "text": "can i increase my credit limit?",
+      "intent": "CreditCard.RequestCreditLineIncrease",
+      "entities": []
+    },
+    {
+      "text": "can i postpone they payment day?",
+      "intent": "CreditCard.RequestExtendPayment",
+      "entities": []
+    },
+    {
+      "text": "can i transfer my payment date?",
+      "intent": "CreditCard.RequestExtendPayment",
+      "entities": []
+    },
+    {
+      "text": "display the number of calories in 100 grams of pasta",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "display the steps to walk in order to burn 200 calories",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do i have to pay an annual fee?",
+      "intent": "CreditCard.RequestWaiveAnnualFee",
+      "entities": []
+    },
+    {
+      "text": "enter weight 185 at fitbit",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "express money",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 0,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "expressway boarding pass 100",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 0,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "expressway ticket purchase",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 0,
+          "endPos": 9
+        },
+        {
+          "entity": "products",
+          "startPos": 11,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "expressway ticket purchase 200 baht",
+      "intent": "Topup",
+      "entities": []
+    },
+    {
+      "text": "full express way",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 5,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "full mobile",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 5,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "how many minutes to run to burn calories in a one big fries",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how much am i debt?",
+      "intent": "CreditCard.CheckOutStandingBalance",
+      "entities": []
+    },
+    {
+      "text": "how much can i use the card?",
+      "intent": "CreditCard.CheckAvailableCreditLine",
+      "entities": []
+    },
+    {
+      "text": "how much credit do i have left?",
+      "intent": "CreditCard.CheckAvailableCreditLine",
+      "entities": []
+    },
+    {
+      "text": "how much do i have to limit?",
+      "intent": "CreditCard.CheckAvailableCreditLine",
+      "entities": []
+    },
+    {
+      "text": "how much do i owe you?",
+      "intent": "CreditCard.CheckOutStandingBalance",
+      "entities": []
+    },
+    {
+      "text": "i do not have enough money to pay.",
+      "intent": "CreditCard.RequestExtendPayment",
+      "entities": []
+    },
+    {
+      "text": "i do not have money",
+      "intent": "CreditCard.RequestExtendPayment",
+      "entities": []
+    },
+    {
+      "text": "i do not want to pay",
+      "intent": "CreditCard.RequestExtendPayment",
+      "entities": []
+    },
+    {
+      "text": "i don't want to pay an annual fee.",
+      "intent": "CreditCard.RequestWaiveAnnualFee",
+      "entities": []
+    },
+    {
+      "text": "i have no money.",
+      "intent": "CreditCard.RequestExtendPayment",
+      "entities": []
+    },
+    {
+      "text": "i need to refill a 500 expressway pass",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 23,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "i now weigh 162 pounds record that please",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to buy easypass 150 baht",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 14,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "i'd like to refill a fast ticket",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 21,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "is there a problem in eating 2 bananas before running ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "log weight 253 . 5 please",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "mobile prepaid",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 0,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "mobile topup",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 0,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "prepaid phone 500",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 0,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "prepaid phone 500 baht",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 0,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "raise the limit",
+      "intent": "CreditCard.RequestCreditLineIncrease",
+      "entities": []
+    },
+    {
+      "text": "record my weight yesterday was 11 stone",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "record weight 172 lbs please",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "record weight is 160 pounds please .",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "record weight today is 169 pounds please",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "request additional credit",
+      "intent": "CreditCard.RequestCreditLineIncrease",
+      "entities": []
+    },
+    {
+      "text": "save that i weigh 145 today",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "show me the number of my steps in a 500 meter walk",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "topup easypass",
+      "intent": "Topup",
+      "entities": []
+    },
+    {
+      "text": "topup easypass 500 thb",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 6,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "topup expressway",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 6,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "topup expressway pass 25",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 6,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "topup expressway pass 25 baht",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 6,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "topup phone 200",
+      "intent": "Topup",
+      "entities": [
+        {
+          "entity": "products",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "what are the remaining limits?",
+      "intent": "CreditCard.CheckAvailableCreditLine",
+      "entities": []
+    },
+    {
+      "text": "what date is the payment required?",
+      "intent": "CreditCard.CheckDueDate",
+      "entities": []
+    },
+    {
+      "text": "what is my available credit?",
+      "intent": "CreditCard.CheckAvailableCreditLine",
+      "entities": []
+    },
+    {
+      "text": "what is the outstanding balance?",
+      "intent": "CreditCard.CheckOutStandingBalance",
+      "entities": []
+    },
+    {
+      "text": "when can i pay for the last day?",
+      "intent": "CreditCard.CheckDueDate",
+      "entities": []
+    },
+    {
+      "text": "when do i have to pay?",
+      "intent": "CreditCard.CheckDueDate",
+      "entities": []
+    },
+    {
+      "text": "when is the last day to pay?",
+      "intent": "CreditCard.CheckDueDate",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
